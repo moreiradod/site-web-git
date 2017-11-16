@@ -1,8 +1,14 @@
 body{
-	background: #DEB887;
+	background: Navajowhite;
 }
 
 h1{
 	text-align: center;
 	text-decoration: underline;
+}
+
+.carre{
+	background: #DEB887;
+	padding: 5px;
+	border-radius: 50px;
 }
