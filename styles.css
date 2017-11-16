@@ -1,0 +1,54 @@
+body{
+	background: Navajowhite;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.carre{
+	background: #DEB887;
+	padding: 5px;
+	border-radius: 50px;
+	margin: auto;
+}
+
+.blague{
+	list-style: none;
+}
+
+ol li  {
+  margin:1em;
+  float:left;
+}
+
+
+ol li {
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+ol li:nth-child(even) {
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+ 
+}
+ol li:nth-child(3n) {
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  ;
+}
+ol li:nth-child(5n) {
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
